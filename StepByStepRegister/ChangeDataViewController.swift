@@ -64,7 +64,7 @@ class ChangeDataViewController: UIViewController {
     @IBAction func save(_ sender: Any) {
         
         
-        if name != nil && gender != nil && email != nil && phone != nil {
+        if name.text != "" && gender.text != "" && email.text != "" && phone.text != "" {
             FIRDatabase.database().reference(withPath: "ID/\(self.uid)/Profile/Name").setValue(name.text)
             FIRDatabase.database().reference(withPath: "ID/\(self.uid)/Profile/Gender").setValue(gender.text)
             FIRDatabase.database().reference(withPath: "ID/\(self.uid)/Profile/Email").setValue(email.text)

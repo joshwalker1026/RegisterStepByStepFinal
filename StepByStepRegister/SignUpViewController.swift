@@ -36,7 +36,7 @@ class SignUpViewController: UIViewController {
     }
 
     @IBAction func Confirm_Button_Tapped(_ sender: Any) {
-        if Name != nil && Gender != nil && Email != nil && Phone != nil{
+        if Name.text != "" && Gender.text != "" && Email.text != "" && Phone.text != ""{
             FIRDatabase.database().reference(withPath: "ID/\(self.uid)/Profile/Name").setValue(Name.text)
             FIRDatabase.database().reference(withPath: "ID/\(self.uid)/Profile/Gender").setValue(Gender.text)
             FIRDatabase.database().reference(withPath: "ID/\(self.uid)/Profile/Email").setValue(Email.text)
