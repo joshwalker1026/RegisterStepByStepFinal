@@ -29,6 +29,7 @@ class LogInViewController: UIViewController {
     
     @IBAction func SignUp_Button_Tapped(_ sender: Any) {
         if self.Email.text != "" || self.Password.text != ""{
+            
             FIRAuth.auth()?.createUser(withEmail: self.Email.text!, password: self.Password.text!, completion: { (user, error) in
                 
                 if error == nil{
@@ -55,7 +56,6 @@ class LogInViewController: UIViewController {
                     if let user = FIRAuth.auth()?.currentUser{
                         self.uid = user.uid
                         
-                        FIRDatabase.database().reference(withPath: "Online-Status/\(self.uid)").setValue("ON")
                     }
                     
                     FIRDatabase.database().reference(withPath: "ID/\(self.uid)/Profile/Safety-Check").setValue("ON")
