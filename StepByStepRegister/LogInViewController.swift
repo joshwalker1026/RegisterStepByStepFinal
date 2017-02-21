@@ -61,7 +61,6 @@ class LogInViewController: UIViewController {
                     
                     FIRDatabase.database().reference(withPath: "ID/\(self.uid)/Profile/Safety-Check").setValue("ON")
                     
-                    //跳到確認頁
                     let storyboard = UIStoryboard(name: "Main", bundle: nil)
                     let nextVC = storyboard.instantiateViewController(withIdentifier: "ConfirmViewControllerID")as! ConfirmViewController
                     self.present(nextVC,animated:true,completion:nil)
