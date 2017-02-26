@@ -59,7 +59,7 @@ class LogInViewController: UIViewController {
                         
                     }
                     
-                    FIRDatabase.database().reference(withPath: "ID/\(self.uid)/Profile/Safety-Check").setValue("ON")
+                    FIRDatabase.database().reference(withPath: "Online-Status/\(self.uid)").setValue("ON")
                     
                     let storyboard = UIStoryboard(name: "Main", bundle: nil)
                     let nextVC = storyboard.instantiateViewController(withIdentifier: "ConfirmViewControllerID")as! ConfirmViewController
