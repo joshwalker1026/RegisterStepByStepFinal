@@ -2,8 +2,8 @@
 //  ConfirmViewController.swift
 //  StepByStepRegister
 //
-//  Created by Mac on 2017/2/3.
-//  Copyright © 2017年 Mac. All rights reserved.
+//  Created by Sunny on 2017/2/3.
+//  Copyright © 2017年 Sunny. All rights reserved.
 //
 
 import UIKit
