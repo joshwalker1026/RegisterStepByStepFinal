@@ -1,13 +1,10 @@
 # RegisterStepByStepFinal
 
-[id1]:https://github.com/sunnyleeyun/RegisterStepByStep
-[id2]:http://sunnylee945.wixsite.com/leeyun/single-post/2017/02/21/Firebase%EF%BC%9A%E7%94%A8-Swift-%E5%BB%BA%E7%AB%8B%E3%80%8C%E8%A8%BB%E5%86%8A%E3%80%8D%E7%B3%BB%E7%B5%B1
-
-請依照[ RegisterStepByStepFinal ][id1]與[ Firebase：用Swift建立「註冊」系統 ][id2]的步驟，即得此RegisterStepByStepFinal。
+[id2]:https://medium.com/@sunnyleeyun/swift-%E4%B8%80%E6%AC%A1%E5%AD%B8%E6%9C%83firebase%E7%9A%84%E9%96%8B%E7%99%BC%E8%80%85%E4%B8%89%E5%A4%A7%E9%87%8D%E9%BB%9E-authentication-database-storage-d7ec5708f86f
 
 
 #### Demo ####
-[![Demo](https://i.ytimg.com/vi/7EtMUehTNto/1.jpg?time=1486976666492)](https://www.youtube.com/watch?v=7EtMUehTNto)
+![firebase demo](https://user-images.githubusercontent.com/20850892/27823727-b9385a38-60dc-11e7-91e0-d0df7d52707f.gif)
 
 
-
+### 註：完整說明，請至Sunny的技術部落格 [Swift：一次學會Firebase的開發者三大重點 — Authentication、Database、Storage][id2] ###
