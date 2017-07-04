@@ -7,4 +7,4 @@
 ![firebase demo](https://user-images.githubusercontent.com/20850892/27823727-b9385a38-60dc-11e7-91e0-d0df7d52707f.gif)
 
 
-### 註：完整說明，請至Sunny的技術部落格 [Swift：一次學會Firebase的開發者三大重點 — Authentication、Database、Storage][id2] ###
+### 註：完整說明，請至Sunny的技術部落格 [Swift：一次學會Firebase的開發者三大重點 — Authentication、Database、Storage][id2]，希望對你有幫助！ ###
