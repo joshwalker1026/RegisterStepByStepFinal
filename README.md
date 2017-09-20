@@ -1,5 +1,5 @@
 # Swift：一次學會Firebase的開發者三大重點 
-### Authentication、Database、Storage
+### Authentication、Database、Storage
 
 [id2]:https://medium.com/@sunnyleeyun/swift-%E4%B8%80%E6%AC%A1%E5%AD%B8%E6%9C%83firebase%E7%9A%84%E9%96%8B%E7%99%BC%E8%80%85%E4%B8%89%E5%A4%A7%E9%87%8D%E9%BB%9E-authentication-database-storage-d7ec5708f86f
 
